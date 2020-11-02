@@ -1,0 +1,22 @@
+import javax.swing.*;
+
+/**
+ *
+ * @author Артур
+ */
+public class UsingVar {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String name="Иванов Иван Иванович";
+        int age=60;
+        char category='B';
+        String text="Водитель: "+name;
+        text=text+"\n"+"Возраст: "+age+" лет";
+        text=text+'\n'+"Права категории: "+category;
+        JOptionPane.showMessageDialog(null, text);
+    }
+    
+}
